@@ -30,18 +30,21 @@ namespace aula6
             alguem.Foto = "anonio.jpg";
             lista[0] = alguem;
 
+            alguem = new Canditado();
             alguem.Numero = 23;
             alguem.Nome = "Joana Lima";
             alguem.Turma = "1º ADS";
             alguem.Foto = "joana.jpg";
             lista[1] = alguem;
 
+            alguem = new Canditado();
             alguem.Numero = 34;
             alguem.Nome = "Frederico Ferreira";
             alguem.Turma = "1º ADS";
             alguem.Foto = "frederico.jpg";
             lista[2] = alguem;
 
+            alguem = new Canditado();
             alguem.Numero = 45;
             alguem.Nome = "Vivian Almeida";
             alguem.Turma = "1º ADS";
