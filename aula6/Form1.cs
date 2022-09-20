@@ -131,9 +131,7 @@ namespace aula6
                         lblCandidato.Text = lista[i].Nome;
                         lblTurma.Text=lista[i].Turma;
                         pxFoto.Image = Image.FromFile(@"" + lista[i].Foto); // caminho da foto
-                        lblMensagem.Visible = true;
-                        btnConfirmar.Enabled = true;
-                        lista[i].Voto += 1;
+                        i=3;
 
                     }
                     else
